@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width= , initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/1db6d167da.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/Anishedited2.png" alt="error loading image" class="logo" />
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Certifications</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer | GITA Autonomous College</p>
+        <h1>
+          Hi, I'm
+          <span id="firsttext" class="typing-animation">Anish Kumar</span>
+          <br />
+          from<in> INDIA</in>
+        </h1>
+
+
+
+      </div>
+    </div>
+
+
+  </div>
+  <!-- -------------------about---------------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/11.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About Me</h1>
+
+          <p>
+            I'm Anish Kumar, a second-year BTech CSIT student with a fervent passion for continual learning. Eager to explore diverse aspects of technology, I thrive on hands-on experiences and real-world projects. My portfolio is a snapshot of my journey, showcasing my dedication to staying at the forefront of the dynamic field of Computer Science and Information Technology
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">
+              Experience
+            </p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Programming Languages</span><br />C| JAVA |PYTHON</li>
+              <li>
+                <span>Web Technologies</span><br />HTML | CSS | JAVASCRIPT
+              </li>
+              <li>
+                <span> Other Skills</span><br />
+                MS Word | Canva |PPT<br />
+                In-depth Knowledge of the concepts of Object Oriented
+                Programming<br />
+                DATA STRUCTURES AND ALGORITHMS
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2023</span><br />Intern at GauravGo Technologies </li>
+              <li>
+                <span>2023</span><br />Intern at Codsoft in JAVA Programming
+              </li>
+              <li>
+                <span>2023</span><br />Intern at Oasis Infobyte in Web Development
+
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2022-2026(expected)</span><br />B.TECH from GITA
+                Autonomous College
+              </li>
+              <li>
+                <span>2020-2022</span><br /> 12th from Jawahar Navodaya Vidyalaya West
+                Singhbhum
+              </li>
+              <li>
+                <span>2019-2020</span><br />10th from ST Xavier's high School
+                Chaibasa
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- -------------------------Certifications--------------------- -->
+  <div id="services" class="container1">
+    <h1>Certifications</h1>
+    <div class="image-container">
+      <div class="image"><img src="images/ANISH KUMAR (4)_page-0001.jpg" alt="Error Loading Image"></div>
+      <div class="image"><img src="images/javaCertificate_page-0001.jpg" alt="Error Loading Image"></div>
+      <div class="image"><img src="images/cssCertificate_page-0001.jpg" alt="Error Loading Image"></div>
+      <div class="image"><img src="images/Anish Kumar - Participation Certificate (1)_page-0001.jpg"
+          alt="Error Loading Image"></div>
+
+    </div>
+    <div class="popup-image">
+      <span>&times;</span>
+      <div class="image"><img src="images/javaCertificate_page-0001.jpg" alt="Error Loading Image"></div>
+    </div>
+  </div>
+  </div>
+
+  <!-- ------------------portfolio---------------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="subtitle">My Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/Amazon_page-0001.jpg" alt="Error Loading Image" />
+          <div class="layer">
+            <h3>Amazon Clone Website</h3>
+            <p>
+         It is a prototype frontend Website of Amazon.com<br><br><span>Click below for Github Link</span>
+            </p>
+            <a href="https://github.com/anishkumar1412/Amazon-Clone.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/Calculator - By Code Traversal_page-0001.jpg" alt="Error Loading Image" />
+          <div class="layer">
+            <h3>Calculator Web App</h3>
+            <p>
+            It is a simple Calculator which can perform Aritmatic Calculations.<br><br><span>Click below for Github Link</span>
+            </p>
+            <a href="https://github.com/anishkumar1412/Calculator.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/Best Online Food Delivery Service in India _ MyOnlineMeal.com_compressed_page-0001.jpg"
+            alt="Error Loading Image" />
+          <div class="layer">
+            <h3>Online Food Delivery Website</h3>
+            <p>
+              It is a prototype Food Delivery Website which can deliver Food on very short time.<br><br><span>Click below for Github Link</span>
+            </p>
+            <a href="https://github.com/anishkumar1412/Food-Delivery-Website.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/CodingBulb.com_page-0001.jpg" alt="Error Loading Image" />
+          <div class="layer">
+            <h3>Online Coding Contest Website</h3>
+            <p>
+             It is a prototype website which provides Coding Contests,  and based on score provids College level 
+             rankings and Online Courses.<br><br><span>Click below for Github Link</span> 
+            </p>
+            <a href="https://github.com/anishkumar1412/Coding-Contest-Website.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/login page_page-0001.jpg" alt="Error Loading Image" />
+          <div class="layer">
+            <h3>Simple Login page</h3>
+            <p>
+             It is a Simple Login page.<br><br><span>Click below for Github Link</span>
+            </p>
+            <a href="https://github.com/anishkumar1412/login-page.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/Two Good Co_page-0001.jpg" alt="Error Loading Image" />
+          <div class="layer">
+            <h3>Animated Modern Website</h3>
+            <p>
+             It is a protype of fully functional modern day animated website.<br><br><span>Click below for Github Link</span>
+            </p>
+            <a href="https://github.com/anishkumar1412/modern-animated-website.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/anishkumar1412" class="btn">See more </a>
+    </div>
+  </div>
+
+  <!-- -----------------contact--------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="subtitle">Contact Me</h1>
+          <p>
+         <i  class="fa-solid fa-paper-plane"></i>anishkumarcbsa@gmail.com
+          </p>
+          <p><i class="fa-solid fa-phone"></i>9798297100</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100017179786698"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/AnishKu03864437"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://instagram.com/anish.kumar._?igshid=MmVlMjlkMTBhMg=="><i
+                class="fa-brands fa-instagram"></i></a>
+            <a
+              href="https://www.linkedin.com/in/anish-kumar-30a870245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/anishkumar1412"><i class="fa-brands fa-github"></i></a>
+          </div>
+          </i><a href="images/ANISH KUMAR.pdf" download class="btn btn2">Download CV <i class="fa-solid fa-file-lines cv " style="color: #ffffff;"></i></a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            Your name:<input type="text" name="Name" required /> Your Email:
+            <input type="email" name="email" required /> Your
+            Message:<textarea name="Message" rows="6" class="textarea" placeholeder="Your Message "></textarea>
+
+            <!-- <button type="submit" class="btn btn2">submit</button> -->
+            <button type="submit" class="btn btn2">Submit <i class="fa-solid fa-paper-plane cv" style="color: #ffffff;"></i></button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @Anish kumar. Made with HTML, CSS and JAVASCRIPT</p>
+    </div>
+  </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbzrcXitCOW_bOdTmB1X7GOFd09Eosk30wAYDziCE9rnZJwofI0p3R73XSlo1ru12Gj2/exec";
+    const form = document.forms["submit-to-google-sheet"];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then((response) => {
+          msg.innerHTML = "Message sent successfully";
+          setTimeout(function () {
+            msg.innerHTML = "";
+          }, 5000);
+          form.reset();
+        })
+        .catch((error) => console.error("Error!", error.message));
+    });
+
+    document.querySelectorAll('.image-container img').forEach(image => {
+      image.onclick = () => {
+        document.querySelector('.popup-image').style.display = 'block';
+        document.querySelector('.popup-image img').src = image.getAttribute('src');
+      }
+    });
+    document.querySelector('.popup-image span').onclick = () => {
+      document.querySelector('.popup-image').style.display = 'none';
+    }
+  </script>
+</body>
+
+</html>
